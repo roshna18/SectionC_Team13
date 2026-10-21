@@ -1,0 +1,26 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Model weights and caches
+*.pt
+*.onnx
+.cache/
+hf_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Generated images and local data
+backend/storage/*
+!backend/storage/.gitkeep
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
