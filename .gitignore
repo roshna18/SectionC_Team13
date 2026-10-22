@@ -1,26 +1,44 @@
-
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
 .venv/
 venv/
+ENV/
+env/
 .env
+*.env
+backend/.env
+frontend/.env
+frontend/.env.local
 
-# Model weights and caches
+# Model weights, datasets and caches
 *.pt
 *.onnx
+*.bin
 .cache/
 hf_cache/
+runs/
 
-# Frontend
+# Node / Frontend
+node_modules/
 frontend/node_modules/
 frontend/dist/
+dist/
+.eslintcache
+*.local
 
 # Generated images and local data
 backend/storage/*
 !backend/storage/.gitkeep
 
-# Editor and OS files
+# Editor, OS and IDE files
 .vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
 Thumbs.db
