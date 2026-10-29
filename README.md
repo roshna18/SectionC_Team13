@@ -226,3 +226,8 @@ Tests cover:
 4. **Rate Limiting:** Protects the GPU/CPU-heavy `/api/analyze` endpoint against denial-of-service spam.
 5. **Request Cancellation:** The frontend uses `AbortController` to cleanly cancel stale or superseded requests.
 6. **Graceful Error Handling:** Centralized exception handlers prevent internal tracebacks or system paths from leaking to clients.
+
+## 📄 Project Documentation
+
+- 📘 [Project Report](docs/SmartParkAI_Project_Report.pdf)
+- 📊 [Project Presentation](docs/SmartParkAI_Presentation.pdf)
