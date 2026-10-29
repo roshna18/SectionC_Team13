@@ -229,5 +229,7 @@ Tests cover:
 
 ## 📄 Project Documentation
 
-- 📘 [Project Report](docs/SmartParkAI_Project_Report.pdf)
-- 📊 [Project Presentation](docs/SmartParkAI_Presentation.pdf)
+## 📄 Project Documentation
+
+- 📘 [Project Report (PDF)](./docs/SmartParkAI_Project_Report.pdf)
+- 📊 [Project Presentation (PDF)](./docs/SmartParkAI_Presentation.pdf)
